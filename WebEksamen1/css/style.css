@@ -1,0 +1,544 @@
+/* generel */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* toppmeny */
+
+header {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding-bottom: 15px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+.navbar li.contact a {
+    background-color: #e6bd43;
+    padding: 12px 15px;
+    border-radius: 5px;}
+
+.navbar li.contact a:hover {
+    background-color: #000;
+    color: #e6bd43;
+}
+
+.logo {
+    max-height: 100px;
+    padding-left: 20px;
+}
+
+
+/* bunnmeny */
+
+
+#bunneny {
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-size: cover;
+
+}
+
+
+#bunneny article {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#bunneny .fa-square-facebook,
+#bunneny .fa-square-instagram,
+#bunneny .fa-linkedin {
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+#bunneny article h2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+/* index */
+
+main#index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#index2 {
+    width: 70%;
+    margin: 20px 0;
+}
+
+#index1 {
+    height: 50%;
+    width: 100%;
+    
+}
+
+#index1 h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main section#index1 {
+    background: url(../img/mountainspicture.png) ;
+    text-align: center;
+    background-size: cover;
+    color: #000;
+
+}
+
+
+#index1 p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.read-more-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e6bd43;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.read-more-btn a:hover {
+    background-color: #000;
+    color: #e6bd43;
+}
+
+#index2 {
+    margin: 70px;
+}
+
+#index2 h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+#index2 p {
+    font-size: 18px;
+}
+
+section#index3 {
+    width: 100vw;
+}
+
+main section#index3 {
+    background-color: #e6bd43;
+    padding: 50px;
+    text-align: center;
+    color: #000;
+    width: 100vw;
+    max-width: 1370px;
+
+}
+
+#index3 {
+    width: 100vw;
+
+}
+#index3 .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#index3 img {
+    max-width: 100%;
+
+}
+
+#index3 .text-content {
+    flex-grow: 1;
+    text-align: left;
+}
+
+#index3 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+#index3 p {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-left: 30px;
+
+}
+
+
+#index3 .read-more-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    margin-top: 20px;
+    border: #000 solid 2px;
+    margin-left: 30px;
+
+}
+
+#index4 {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#index4 h2 {
+    width: 100%;
+    margin-bottom: 60px;
+    font-size: 35px;
+}
+
+#index4 article {
+    width: 200px;
+    text-align: center;
+}
+
+
+#index4 h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+
+#index4 p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+
+#index5 {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+    color: #000;
+    width: 100vw;
+    margin-bottom: 0;
+    max-width: 1370px;
+
+}
+
+#index5 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+label {
+    font-size: 16px;
+}
+
+#email {
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e6bd43;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #000;
+    color: #e6bd43;
+}
+
+
+/* produkts */
+
+
+
+
+.portfoliobilde {
+    background: url('../img/mountainspicture.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+
+
+
+a.raskknapp {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+hr {
+    border-color: #e6bd43;
+}
+
+
+#undermeny {
+    margin: 40px;
+}
+
+#branding, #design, #development {
+    margin: 40px;
+}
+
+#branding {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#branding h2, hr {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+#branding article {
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+}
+
+#branding article:last-child {
+    flex-basis: calc(50% - 20px);
+}
+
+section > article img {
+    width: 100%;
+    height: auto;
+}
+
+
+#design {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+#design h2 {
+    width: 100%;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#design article {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+#design > article img {
+    width: 100%;
+    height: auto;
+}
+
+
+#development {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+#development h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#development article {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+#development > article img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* about */
+
+
+#about1 {
+    background: url('../img/mountainspicture.png');
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    padding: 20px;
+}
+
+#about1 article {
+    max-width: 500px;
+    margin-left: 55%;
+    background-color: #ffffffe1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#about1 h2 {
+    margin-bottom: 10px;
+}
+
+#about1 p {
+    margin-bottom: 10px;
+}
+
+#about1 .read-more-btn {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+
+
+.clients {
+    background-color: #e6bd43;
+    padding: 50px;
+    text-align: center;
+}
+
+.clients h2 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.clients article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.clients article img {
+    max-width: 100px;
+    height: auto;
+    margin: 0 -350px;
+}
+
+
+
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#contact h2 {
+    
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#contact article {
+    width: 47%;
+}
+
+#contact form,
+#contact h3,
+#contact p,
+#contact h4 {
+    margin-bottom: 20px;
+}
+
+#contact form label,
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+#kart{
+    background: url(../img/kart.png);
+    text-align: center;
+    background-size: cover;
+    color: #000;
+    height: 400px;
+    border: #000 solid 2px;
+    margin-bottom: 1px;
+
+}
